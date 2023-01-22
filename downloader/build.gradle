@@ -43,8 +43,8 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.knightcoderss'
-                artifactId = 'downloader'
-                version = '1.0'
+                artifactId = 'Downloader'
+                version = '1.0.0'
             }
         }
     }

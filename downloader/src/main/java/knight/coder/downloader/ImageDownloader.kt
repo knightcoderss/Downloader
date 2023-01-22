@@ -9,7 +9,7 @@ import androidx.core.net.toUri
 
 @RequiresApi(Build.VERSION_CODES.M)
 class ImageDownloader(
-    private val context: Context,
+    context: Context,
 ) : Downloader {
     private val downloadManager = context.getSystemService(DownloadManager::class.java)
     override fun downloadFile(url: String, type: String): Long {
